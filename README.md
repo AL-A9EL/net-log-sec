@@ -35,8 +35,9 @@ net-log-sec/
 ├── requirements.txt       # Project dependencies
 └── README.md              # Project documentation
 
-🛠️ Installation & Setup
-Clone the Repository:
+---
+
+🛠️ Installation & SetupClone the Repository:
 
 Bash
 git clone [https://github.com/AL-A9EL/net-log-sec.git](https://github.com/AL-A9EL/net-log-sec.git)
@@ -45,6 +46,9 @@ Install Dependencies:
 
 Bash
 pip install -r requirements.txt
+
+---
+
 💻 Usage
 Run the interactive Command Line Interface (CLI):
 
@@ -58,6 +62,8 @@ Detect Brute Force Attacks: Set your preferred time window (minutes) and failed 
 Export Comprehensive Report: Save parsed logs into a structured CSV report.
 
 Exit: Safely close the utility.
+
+---
 
 🧪 Running Unit Tests
 To verify code integrity and run automated unit tests with pytest:
