@@ -1,4 +1,3 @@
-Markdown
 # NetLogSec 🛡️
 
 **NetLogSec** is a modular Python-based network security and log analysis utility designed to parse security logs, detect brute-force attacks using rolling time windows, and generate detailed threat reports. 
@@ -35,9 +34,9 @@ net-log-sec/
 ├── requirements.txt       # Project dependencies
 └── README.md              # Project documentation
 
----
 
-🛠️ Installation & SetupClone the Repository:
+🛠️ Installation & Setup
+Clone the Repository:
 
 Bash
 git clone [https://github.com/AL-A9EL/net-log-sec.git](https://github.com/AL-A9EL/net-log-sec.git)
@@ -47,23 +46,17 @@ Install Dependencies:
 Bash
 pip install -r requirements.txt
 
----
-
 💻 Usage
 Run the interactive Command Line Interface (CLI):
 
 Bash
 python -m src.main
 CLI Menu Options:
-Load and Parse Log File: Enter the path to your log file (e.g., data/sample_auth.log).
 
-Detect Brute Force Attacks: Set your preferred time window (minutes) and failed attempts threshold to scan for threats.
-
-Export Comprehensive Report: Save parsed logs into a structured CSV report.
-
-Exit: Safely close the utility.
-
----
+1. Load and Parse Log File: Enter the path to your log file (e.g., data/sample_auth.log).
+2. Detect Brute Force Attacks: Set your preferred time window (minutes) and failed attempts threshold to scan for threats.
+3. Export Comprehensive Report: Save parsed logs into a structured CSV report.
+4. Exit: Safely close the utility.
 
 🧪 Running Unit Tests
 To verify code integrity and run automated unit tests with pytest:
@@ -72,4 +65,3 @@ Bash
 python -m pytest -v
 👨‍💻 Author
 Al-Asel Abdalla Twairesh
-
